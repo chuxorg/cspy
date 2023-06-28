@@ -20,3 +20,36 @@ def print_first_item(items):
 def print_items(n):    
     for i in range(n):
         print(i)
+
+# O(n^2) - Quadratic Time.
+# Time complexity is O(n^2) because the number of operations
+# is directly proportional to the square of n.
+def print_items_b(n):
+    for i in range(n):
+        for j in range(n):
+            # printing n * n times OR n^2 times, so O(n^2)
+            # O(n^2) is also called quadratic time and is generally 
+            # considered to be a bad algorithm.
+            print(i, j)
+
+# O(n + n^2) - Quadratic Time.
+# Time complexity is O(n^2) because the number of operations
+# is directly proportional to the square of n.
+# This is because the n^2 term "dominates" the n term.
+# O(n + n^2) is aka: "dropping the constants". Because we drop the n term and
+# only keep the n^2 term.
+def print_items_c(n):
+    for i in range(n):
+        for j in range(n):
+            # printing n * n times OR n^2 times, so O(n^2)
+            # O(n^2) is also called quadratic time and is generally 
+            # considered to be a bad algorithm.
+            print(i, j)
+            
+    # printing n times, so O(n)
+    for k in range(n):
+        print(k)
+    # When done running, we have O(n^2 + n) which is O(n^2) because the n^2 term "dominates" the n term.
+    # If n == 100 then the first loop runs 100 * 100 times. 
+    # The second loop runs 100 times. The second loop is insignificant compared to the first loop.
+    # So we can ignore it and say that the time complexity is O(n^2). This is called "dropping the constants".
