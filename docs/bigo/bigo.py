@@ -7,10 +7,13 @@
 # it's used to describe the worst case scenario of an algorithm.
 
 # O(1) - Constant Time.
-# This is constant time because it doesn't matter how many items are in the list.
-# It will always take the same amount of time to print the first item in the list.
-def print_first_item(items):    
-    print(items[0])
+# This is constant time because it doesn't matter large n is
+# it will always take the same amount of time to add n to itself.
+# The number of operations is constant. Even if the algorithm were
+# n + n + n, it is still constant time because the number of operations.
+# This is the best case scenario for an algorithm, although it's rare.
+def print_item_a(n):
+    return n + n    
     
 # O(n) - Linear Time. 
 # Time complexity is O(n) because the number of operations 
@@ -47,9 +50,31 @@ def print_items_c(n):
             print(i, j)
             
     # printing n times, so O(n)
+    # When done running, we have O(n^2 + n) which is O(n^2) because the n^2 term "dominates" the n term.
+    # If n == 100 then the first loop runs 100 * 100 times (bad). 
+    # The following second loop runs 100 times. The second loop is insignificant compared to the first loop.
+    # So we can ignore it, for Big O purposes, and say that the time complexity is O(n^2). 
+    # This is called "dropping the constants".
     for k in range(n):
         print(k)
-    # When done running, we have O(n^2 + n) which is O(n^2) because the n^2 term "dominates" the n term.
-    # If n == 100 then the first loop runs 100 * 100 times. 
-    # The second loop runs 100 times. The second loop is insignificant compared to the first loop.
-    # So we can ignore it and say that the time complexity is O(n^2). This is called "dropping the constants".
+    
+ # O(log n) - Logarithmic Time.
+ # Time complexity is O(log n) because the number of operations
+ # is directly proportional to the log of n.
+ # This is because the log n term "dominates" the n term.
+ # O(log n) is also called logarithmic time and is generally
+ # considered to be a good algorithm.
+def print_numbers_c(n):
+    # Consider the following array : | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+    # If n == 8, then the loop runs 3 times. This is because 2^3 == 8.
+    # The goal is to find the number of times we can divide n by 2 until we get to 1.
+    for i in range(n):
+        while i > 0:
+            # // means integer division. So 5 // 2 == 2 (integer) while 5 / 2 == 2.5 (float/double)
+            # essentially, drop the remainder.
+            i = i // 2 
+                       
+            print(i)
+    # What if n = 1,073,741,824? The loop runs 31 times. Because 2^31 =~ 1,073,741,824.
+    # log n is the inverse of 2^n. So if 2^n == 1,073,741,824 then log n == 31. 31 operations is
+    # far better than 1,073,741,824 operations. Or an "Order of Magnitude" better :) 
