@@ -4,7 +4,16 @@
 # It's a way of describing how much memory an algorithm uses.
 # It's a way of describing how much space an algorithm uses.
 # O stands for order of magnitude and "O" refers to the Greek letter "Omicron" and
-# it's used to describe the worst case scenario of an algorithm.
+# it's used to describe the worst case scenario of an algorithm. In this module, we'll
+# cover the following Big O notations:
+# O(1) - Constant Time
+# O(n) - Linear Time
+# O(n^2) - Quadratic Time
+# O(n + n^2) - Quadratic Time
+# O(log n) - Logarithmic Time
+# There is another notation called O(n log n) - Linearithmic Time, but we won't cover it here.
+# Typically, O(n log n) is considered to be a good algorithm in sorting algorithms.
+
 
 # O(1) - Constant Time.
 # This is constant time because it doesn't matter large n is
@@ -66,12 +75,13 @@ def print_items_c(n):
  # considered to be a good algorithm.
 def print_numbers_c(n):
     # Consider the following array : | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
-    # If n == 8, then the loop runs 3 times. This is because 2^3 == 8.
-    # The goal is to find the number of times we can divide n by 2 until we get to 1.
+    # The goal is to find the number of times 
+    # we can divide n by 2 until we get to 1.
+    # If n == 8, then the loop runs 3 times. Because 8 / 2 / 2 / 2 == 1.
     for i in range(n):
         while i > 0:
             # // means integer division. So 5 // 2 == 2 (integer) while 5 / 2 == 2.5 (float/double)
-            # essentially, drop the remainder.
+            # essentially, drop the remainder. Which is what we want here.
             i = i // 2 
                        
             print(i)
