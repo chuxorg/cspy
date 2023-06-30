@@ -11,7 +11,7 @@ Taking a look at some computer science concepts using Python.
 - [Pointers][pointers]
 - [Linked Lists][linkedlists]
 
-[pointers]: https://chuxorg.github.io/datastructures-py/pointers/
-[classes]: https://chuxorg.github.io/datastructures-py/classes/
-[bigo]: https://chuxorg.github.io/datastructures-py/bigo/
-[linkedlists]: https://chuxorg.github.io/datastructures-py/linked_lists/
+[pointers]: https://chuxorg.github.io/cspy/pointers/
+[classes]: https://chuxorg.github.io/cspy/classes/
+[bigo]: https://chuxorg.github.io/cspy/bigo/
+[linkedlists]: https://chuxorg.github.io/cspy/linked_lists/
