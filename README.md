@@ -1,5 +1,7 @@
 # [Python Things][home]
 
+![!Python!](/docs/python.png "Python Things")
+
 Taking a look at some computer science concepts using Python.
 
 
@@ -14,6 +16,8 @@ Taking a look at some computer science concepts using Python.
    In the ```pointers/``` directory you will see code examples that explain how ```Pointers``` work in Python.
    You can read more about [Pointers][pointers] in Python.
 - [Linked Lists][linkedlists]
+   A linked list is a linear data structure where each element is a separate object known as a node. In the ```linked_lists/```
+   folder you will find an example with well documented code. You can read more about [Linked Lists][linkedlists] in Python.   
 
 [home]:https://chuxorg.github.io/cspy/
 [pointers]: https://chuxorg.github.io/cspy/pointers/
