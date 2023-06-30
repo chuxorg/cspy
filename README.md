@@ -1,4 +1,4 @@
-# Python Things
+# [Python Things][home]
 
 Taking a look at some computer science concepts using Python.
 
@@ -11,6 +11,7 @@ Taking a look at some computer science concepts using Python.
 - [Pointers][pointers]
 - [Linked Lists][linkedlists]
 
+[home]:https://chuxorg.github.io/cspy/
 [pointers]: https://chuxorg.github.io/cspy/pointers/
 [classes]: https://chuxorg.github.io/cspy/classes/
 [bigo]: https://chuxorg.github.io/cspy/bigo/
