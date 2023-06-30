@@ -35,4 +35,36 @@ my_car.accelerate()           # call the accelerate method
 my_car.brake()                # call the brake method
 ```
 
+## self
+In Python, self is a convention used in instance methods (accelerate, brake) to refer to the object on which the method is being called. It's always the first parameter in the definition of class instance methods. It allows you to access the instance's attributes and other methods. For example, lets add a `describe()` method to the Car class:
+
+```python
+class Car:
+    def __init__(self, color, brand):
+        self.color = color
+        self.brand = brand
+
+    def describe(self):
+        return f'This is a {self.color} {self.brand}.'
+```
+
+In this example, ```self``` is used in the ```__init__``` method (also known as a constructor) to define the Color and Brand attributes of an instance of the Car class. ```self.color = color``` means "assign the value of the color parameter to the color attribute of this instance of Car".
+
+In the ```describe()``` method, ```self``` is used to access these attributes to provide a description of the car.
+
+So when you create an instance of the Car class:
+
+```python
+my_car = Car('red', 'Toyota')
+print(my_car.describe())
+```
+
+It would output:
+```python
+This is a red Toyota.
+```
+
+It's important to note that self is **NOT** a keyword in Python, and you could technically name ```self``` anything you want. However, it is a very strong convention in Python and other developers will expect you to use self, so it's best to stick with it unless you have a very good reason not to.
+
+
 Classes are one of the fundamental concepts in object-oriented programming and they form the basis for complex software systems by encapsulating data and functionality into reusable and modular components.
