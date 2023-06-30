@@ -1,6 +1,6 @@
 # [Python Things][home]
 
-![!Python!](/docs/python.png "Python Things")
+<img src="/docs/python.png" height="100px" width="100px"/>
 
 Taking a look at some computer science concepts using Python.
 
