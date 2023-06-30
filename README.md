@@ -1,6 +1,6 @@
 # [Python Things][home]
 <p align="center">
-<img src="/docs/python.png" height="200px" width="200px" style="display: block; margin: 0 auto"/>
+<img src="https://chuxorg.github.io/cspy/docs/python.png" height="200px" width="200px" style="display: block; margin: 0 auto"/>
 </p>
 Taking a look at some computer science concepts using Python.
 
