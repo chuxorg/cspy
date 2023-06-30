@@ -11,6 +11,7 @@ Taking a look at some computer science concepts using Python.
    You can read more about [Classes][classes] in Python.
 - [Pointers][pointers]
    Even though Python doesn't allow you to manage ```Pointers``` directly, the subject is still important to understand.
+   In the ```pointers/``` directory you will see code examples that explain how ```Pointers``` work in Python.
    You can read more about [Pointers][pointers] in Python.
 - [Linked Lists][linkedlists]
 
