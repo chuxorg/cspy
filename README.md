@@ -8,7 +8,6 @@ Taking a look at some computer science concepts using Python.
    examples of Big O Notation and shows the different implementations for O(1), O(n), O(n^2), and  O(log n)
 - [Classes][classes]
 - [Pointers][pointers]
-- [Pointers][pointers]
 - [Linked Lists][linkedlists]
 
 [home]:https://chuxorg.github.io/cspy/
