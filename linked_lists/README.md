@@ -1,6 +1,8 @@
 # Linked Lists
 
-Author: Chuck Sailer
+
+Chuck Sailer  
+July 2nd, 2023
 
 A linked list is a linear data structure where each element is a separate object known as a node. Each node contains two fields: "data" and "next". The "data" field stores any kind of data, such as a number, a string, or any other type of object. The "next" field is a pointer that links one node to another, forming a chain.
 

@@ -1,5 +1,9 @@
 # Pointers
 
+
+Chuck Sailer  
+July 2nd, 2023
+
 In Python, you don't directly use pointers as in languages like C or C++. However, Python does have its own system for referencing objects that behaves somewhat similarly to pointers, and understanding this system can be helpful.
 
 In Python, variables are references to objects. When you assign an object to a variable, you're actually creating a reference to the object, not creating a new copy of it. This is similar to how pointers work.

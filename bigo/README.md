@@ -1,6 +1,9 @@
-# Big O
+# Big O Notation
 
-# Intro
+Chuck Sailer  
+July 2nd, 2023
+
+
 Big O notation is a mathematical notation used in computer science to describe the performance or complexity of an algorithm. Specifically, it describes the worst-case scenario in terms of time or space complexity, as the size of the input data grows.
 
 The "O" in Big O stands for "Order of", and it's used to classify algorithms based on how their run time or space requirements grow as the input size increases.

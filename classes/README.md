@@ -1,4 +1,8 @@
-# Classes
+# Classes  
+
+
+Chuck Sailer  
+July 1st, 2023
 
 In object-oriented programming, a class is a blueprint for creating objects. It's a user-defined data type, which defines the properties (data) and methods (functions) that an object can have.
 

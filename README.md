@@ -1,8 +1,14 @@
 # [Python Things][home]
+
+Chuck Sailer  
+July 2nd, 2023
+
 <p align="center">
 <img src="https://chuxorg.github.io/cspy/docs/python.png" height="200px" width="200px" style="display: block; margin: 0 auto"/>
-</p>
-Taking a look at some computer science concepts using Python.
+</p>  
+
+
+Taking a look at some computer science concepts using Python.  
 
 
 - [Big O Notation][bigo]
