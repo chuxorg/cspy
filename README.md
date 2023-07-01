@@ -8,7 +8,7 @@ July 2nd, 2023
 </p>  
 
 
-Taking a look at some computer science concepts using Python.  
+I'm using this repo to keep my chops up by taking a look at some computer science concepts using Python.  
 
 
 - [Big O Notation][bigo]
