@@ -1,6 +1,6 @@
 # [Python Things][home]
 
-<img src="https://chuxorg.github.io/cspy/docs/logo.svg" height="30" width="30" align="left"/> Chuck Sailer  
+<img src="https://chuxorg.github.io/cspy/docs/logo.svg" height="30" width="30" align="left" style="margin-right:5px"/> Chuck Sailer  
 July 2nd, 2023
 
 <p align="center">
