@@ -8,7 +8,8 @@ July 2nd, 2023
 </p>  
 
 
-I'm using this repo to keep my chops up by putting together some computer science concepts using Python.  
+I'm using this repo to keep my chops up by putting together some computer science concepts using Python. Feel free to clone this repo.
+
 
 
 - [Big O Notation][bigo]
