@@ -1,6 +1,6 @@
 # [Python Things][home]
 
-Chuck Sailer  
+<img src="https://chuxorg.github.io/cspy/docs/logo.svg" height="30" width="30" align="left"/> Chuck Sailer  
 July 2nd, 2023
 
 <p align="center">
@@ -13,8 +13,7 @@ I'm using this repo to keep my chops up by putting together some computer scienc
 
 
 - [Big O Notation][bigo]
-   In the ```bigo``` folder there is a well-commented file named ```bigo.py```. This file contains
-   examples of Big O Notation and shows the different implementations for O(1), O(n), O(n^2), and  O(log n)
+   In the ```bigo``` folder there is a well-commented file named ```bigo.py```. This file contains examples of how Big O Notation is used to measure time complexity by using different constructs in algorithms that impact time and space complexity. What is O(1), O(n), O(n^2), and  O(log n)?
 - [Classes][classes]
    Classes are an important concept in Python. In the ```classes``` folder there is an example of a Python Class.
    You can read more about [Classes][classes] in Python.
