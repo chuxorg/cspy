@@ -19,6 +19,13 @@ Technical interviewers use Fibonacci to test the ability of a candidate to write
 def fib(n):
    """
    This is brute force Fibonacci. You'll get the right answer, eventually =).
+   Time Complexity == O(2^n) # Exponential == Bad, Bad, Bad
+   Space Complexity == O(n) # Linear == The best case is Meh. Worst case is bad, bad, bad.
+
+   Note: Space complexity is measured by memory usage, disk space, and call stack. The call stack
+   is the metric used in measuring O(n). The initial call is placed on the call stack and the subsequent
+   recursive calls are also placed on the call stack. When a function returns, that function is removed
+   from the call stack.
    """
    if n <= 2: return 1
    return fib(n-1) + fib(n-2)
