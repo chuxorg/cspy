@@ -9,7 +9,19 @@ class LinkedList:
         self.head = node
         self.tail = node
         self.length = 1
-        
+    
+    def pop(self):
+        """
+        Pop is a little less straightforward than the other methods.
+        The objective is to remove the last node of the Linked List.'
+        To accomplish this, we will use to variables to track where we are
+        Returns:
+            _type_: _description_
+        """
+        if self.head is None:
+            return None
+        else:
+            return self.head.value  
     
     def append(self, value):
         """
