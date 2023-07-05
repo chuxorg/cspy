@@ -9,7 +9,19 @@ class LinkedList:
         self.head = node
         self.tail = node
         self.length = 1
-        
+    
+    def pop(self):
+        """
+        Pop is a little less straightforward than the other methods.
+        The objective is to remove the last node of the Linked List.'
+        To accomplish this, we will use to variables to track where we are
+        Returns:
+            _type_: _description_
+        """
+        if self.head is None:
+            return None
+        else:
+            return self.head.value  
     
     def append(self, value):
         """
@@ -17,23 +29,25 @@ class LinkedList:
         Args:
             value (Object): This will be a value of any type 
         """
+        # Create a new node with the value
+        node = Node(value)
         # If there's no head, create one
         if self.head is None:
-            # This conditional is not necessary, but just in case.
-            # The head is set in the constructor
-            self.head = Node(value)
-            return
-        # If there is a head, copy it to a variable
-        node = self.head
-        while node.next:
-            # iterating over all nodes in the list looking for the last one 
-            # (Node with next -> None is the last node)
-            node = node.next
-        # Create a new node with the value amd set it as the next node of the last node
-        # Remember that the node variable is a pointer to self.head. Now, we are giving the head node
-        # a new next node, which is the new node we just created    
-        node.next = Node(value)
-        return
+            # This condition is when the Linked List is empty
+            # Set the head and tail to the new node
+            self.head = node 
+            self.tail = node
+        else:
+            # Appending means to add to the end of the linked list.
+            # Here we set the next node of the current tail to the new node
+            self.tail.next = node
+            self.tail = node
+        
+        # Increment the length of the Linked List by one
+        self.length += 1
+        
+        # 
+        return True 
     
     def prepend(self, value):
         """
@@ -64,6 +78,15 @@ class LinkedList:
         new_node.next = node.next
         node.next = new_node
         return
+    
+    def print_list(self):
+        """
+        Prints all the values of the Linked List. Complexity O(n)
+        """
+        temp = self.head
+        while temp is not None:
+            print(temp.value)
+            temp = temp.next
     
     def __repr__(self):
         """ 
