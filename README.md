@@ -23,10 +23,12 @@ I'm using this repo to keep my chops up by putting together some computer scienc
    You can read more about [Pointers][pointers] in Python.
 - [Linked Lists][linkedlists]
    A linked list is a linear data structure where each element is a separate object known as a node. In the ```linked_lists/```
-   folder you will find an example with well documented code. You can read more about [Linked Lists][linkedlists] in Python.   
+   folder you will find an example with well documented code. You can read more about [Linked Lists][linkedlists] in Python.
+- [Parlor Tricks][parlor]   
 
 [home]:https://chuxorg.github.io/cspy/
 [pointers]: https://chuxorg.github.io/cspy/pointers/
 [classes]: https://chuxorg.github.io/cspy/classes/
 [bigo]: https://chuxorg.github.io/cspy/bigo/
 [linkedlists]: https://chuxorg.github.io/cspy/linked_lists/
+[parlor]: https://chuxorg.github.io/cspy/parlor_tricks/
