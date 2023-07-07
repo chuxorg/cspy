@@ -18,11 +18,19 @@ class LinkedList:
         Returns:
             _type_: _description_
         """
-        if self.head is None:
+        if self.length == 0:
             return None
-        else:
-            return self.head.value  
-    
+        temp = self.head
+        pre = self.head
+        while temp.next is not None:
+            pre = temp
+            # move pointer to the next node
+            temp = temp.next
+        
+        self.tail = pre
+        self.tail.next = None
+        
+        
     def append(self, value):
         """
            Puts a new node at the end of the Linked List. Time complexity O(n) 
